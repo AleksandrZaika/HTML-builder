@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { stdin, stdout, exit } = require('process');
+const { stdin, exit } = require('process');
 
 const fileLocation = path.join(__dirname, 'text.txt');
 const createFile = fs.createWriteStream(fileLocation);
