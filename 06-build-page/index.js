@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-const projectDistDir = 'project-dist';
+const projectDistDir = path.join(__dirname, 'project-dist');
 
 async function createProjectFolder() {
   try {
